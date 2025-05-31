@@ -2,7 +2,7 @@
 # env vars to set on login, zsh settings in ~/config/zsh/.zshrc
 
 # default programs
-export EDITOR="vi"
+export EDITOR="nvim"
 export TERM="kitty"
 export TERMINAL="kitty"
 export BROWSER="firefox"

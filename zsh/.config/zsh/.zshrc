@@ -32,6 +32,7 @@ setopt extended_glob # match ~ # ^
 # setopt interactive_comments # allow comments in shell
 # unsetopt prompt_sp # don't autoclean blanklines
 stty stop undef # disable accidental ctrl s
+bindkey -e # emacs keybindings
 
 # history opts
 HISTSIZE=1000000
