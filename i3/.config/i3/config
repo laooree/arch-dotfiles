@@ -219,3 +219,6 @@ gaps inner 7px
 
 # set keyboard layout
 exec setxkbmap -layout it -model pc105
+
+# start emacs as daemon
+exec --no-startup-id emacs --daemon
