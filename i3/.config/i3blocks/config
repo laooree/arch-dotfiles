@@ -1,0 +1,14 @@
+[wifi]
+command=~/.config/i3blocks/scripts/wifi.sh
+interval=5
+label=
+
+[battery]
+command=~/.config/i3blocks/scripts/battery.sh
+interval=5
+label=
+
+[date]
+command=~/.config/i3blocks/scripts/datetime.sh
+interval=10
+label=
