@@ -174,19 +174,19 @@ bindsym Mod4+r mode "resize"
 bindsym Print exec flameshot gui
 
 # wallpaper
-exec --no-startup-id feh --bg-fill /home/laooree/Pictures/wallpapers/mist_forest_1.png
+exec --no-startup-id feh --bg-fill /home/laooree/Pictures/wallpapers/sleepingFox.jpg
 
 # Border style
 default_border pixel 1
 
 # window colors
-set $bg                  #a7c080
-set $border              #a7c080
-set $inactive-border     #272e33
-set $text-color          #d3c6aa
-set $inactive-text-color #7a8478
-set $urgent-color        #e67e80
-set $indicator           #a7c080
+set $bg                  #88c0d0
+set $border              #88c0d0
+set $inactive-border     #4c566a
+set $text-color          #eceff4
+set $inactive-text-color #4c566a
+set $urgent-color        #bf616a
+set $indicator           #88c0d0
 #                       border              background         text                 indicator
 client.focused          $border             $bg                $text-color          $indicator
 client.unfocused        $inactive-border    $inactive-bg       $inactive-text-color $indicator
@@ -194,9 +194,9 @@ client.focused_inactive $inactive-border    $inactive-bg       $inactive-text-co
 client.urgent           $urgent-color       $urgent-color      $text-color          $indicator
 
 # bar
-set $bar_bg              #272e33
-set $bar_fg              #d3c6aa
-set $bar_separator       #7a8478
+set $bar_bg              #2e3440
+set $bar_fg              #eceff4
+set $bar_separator       #4c566a
 bar {
   status_command i3blocks
 	colors {

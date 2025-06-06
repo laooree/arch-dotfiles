@@ -5,4 +5,4 @@ short_date_format="%H:%M:%S"
 
 echo " 󰃰  $(date "$long_date_format") "
 echo " 󰃰  $(date "$short_date_format") "
-echo "#d3c6aa"
+echo "#eceff4"

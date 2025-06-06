@@ -43,4 +43,4 @@ HISTCONTROL=ignoreboth # consecutive duplicates & commands starting with space
 
 # Prompt
 NEWLINE=$'\n'
-PROMPT="${NEWLINE}%F{#1793D1}   %F{#A7C080} %n in %~${NEWLINE}  ❯ %f%k"
+PROMPT="${NEWLINE}%F{#1793D1}   %F{#88C0D0} %n in %~${NEWLINE}  ❯ %f%k"
