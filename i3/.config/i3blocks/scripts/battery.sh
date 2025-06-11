@@ -10,7 +10,7 @@ else
   echo "Battery info unavailable"
 fi
 
-color="#eceff4"
+color="#d3c6aa"
 
 # distinguish among battery conditions:
 # "Charging", "Not charging", "Discharging"
@@ -31,13 +31,13 @@ if [ "$status" = "Discharging" ]; then
     icon="󰁽"
   elif [ "$percent" -ge 20 ]; then
     icon="󰁼"
-    color="#ebcb8b"
+    color="#dbbc7f"
   elif [ "$percent" -ge 10 ]; then
     icon="󰁻"
-    color="#d08770"
+    color="#e69875"
   else
     icon="󰁺"
-    color="#bf616a"
+    color="#e67e80"
   fi
 elif [ "$status" = "Charging" ]; then
   if [ "$percent" -ge 90 ]; then
